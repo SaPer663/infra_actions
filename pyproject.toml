@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "infra_actions"
+version = "0.1.0"
+description = ""
+authors = ["SaPer663 <saper663ru@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Django = "2.2.20"
+pytz = "2021.1"
+sqlparse = "0.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
